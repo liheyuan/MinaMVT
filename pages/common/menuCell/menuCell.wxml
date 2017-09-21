@@ -1,8 +1,0 @@
-<template name="menuCell">
-  <view class="kind-list-item">
-    <view class="kind-list-item-head {{open ? 'kind-list-item-head-show' : ''}}">
-      <view class="kind-list-text">{{name}}</view>
-      <image class="kind-list-img" src="/image/menu/{{id}}.png"></image>
-    </view>
-  </view>
-</template>
