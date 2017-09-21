@@ -1,0 +1,19 @@
+@import "../../common/template-pagehead/template-pagehead.wxss";
+@import "../../common/index.wxss";
+
+.flex-wrp{
+  margin-top: 60rpx;
+  display:flex;
+}
+
+.flex-item{
+  width: 200rpx;
+  height: 200rpx;
+  font-size: 26rpx;
+}
+
+.flex-item-V{
+  margin: 0 auto;
+  width: 200rpx;
+  height: 200rpx;
+}

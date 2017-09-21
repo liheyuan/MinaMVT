@@ -1,0 +1,63 @@
+<import src="../../common/template-pagehead/template-pagehead.wxml" />
+
+<template is="template-pagehead" data="{{title: 'view'}}" />
+
+<view class="page-body">
+
+  <view class="page-section">
+    <view class="page-section-title">
+      <text>flex-direction: row\n横向布局</text>
+    </view>
+    <view class="page-section-spacing">
+      <view class="flex-wrp" style="flex-direction:row;">
+        <view class="flex-item demo-text-1"></view>
+        <view class="flex-item demo-text-2"></view>
+        <view class="flex-item demo-text-3"></view>
+      </view>
+    </view>
+  </view>
+
+  <view class="page-section">
+    <view class="page-section-title">
+      <text>flex-direction: column\n纵向布局</text>
+    </view>
+    <view class="flex-wrp" style="flex-direction:column;">
+      <view class="flex-item flex-item-V demo-text-1"></view>
+      <view class="flex-item flex-item-V demo-text-2"></view>
+      <view class="flex-item flex-item-V demo-text-3"></view>
+    </view>
+  </view>
+
+  <view class="page-section">
+    <view class="page-section-title">
+      <text>align-self\n自身在交叉轴上布局</text>
+    </view>
+    <view class="flex-wrp" style="flex-direction:column;margin:60rpx 40rpx 0rpx 40rpx">
+      <view class="flex-item flex-item demo-text-1" style='align-self:flex-start'></view>
+      <view class="flex-item flex-item demo-text-2" style='align-self:center'></view>
+      <view class="flex-item flex-item demo-text-3" style='align-self:flex-end'></view>
+    </view>
+  </view>
+
+  <view class="page-section">
+    <view class="page-section-title">
+      <text>justify-content\n子元素在主轴上布局</text>
+    </view>
+    <view class="flex-wrp" style="flex-direction:column;justify-content:flex-end">
+      <view class="flex-item flex-item demo-text-1" style=''></view>
+      <view class="flex-item flex-item demo-text-2" style='align-self:center'></view>
+      <view class="flex-item flex-item demo-text-3" style=''></view>
+    </view>
+  </view>
+
+  <view class="page-section">
+    <view class="page-section-title">
+      <text>align-items\n子元素在交叉轴上布局</text>
+    </view>
+    <view class="flex-wrp" style="flex-direction:column;margin:60rpx 40rpx 0rpx 40rpx;align-items:flex-end">
+      <view class="flex-item flex-item demo-text-1" style=''></view>
+      <view class="flex-item flex-item demo-text-2" style='align-self:center'></view>
+      <view class="flex-item flex-item demo-text-3" style=''></view>
+    </view>
+  </view>
+</view>

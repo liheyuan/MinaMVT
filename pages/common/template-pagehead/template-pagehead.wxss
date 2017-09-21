@@ -1,0 +1,19 @@
+.page-head {
+  margin: 60rpx 50rpx 80rpx;
+  text-align: center;
+}
+
+.page-head-title {
+  padding: 0 40rpx 20rpx 40rpx;
+  display: inline-block;
+  text-align: center;
+  color: #BEBEBE;
+  font-size: 32rpx;
+}
+
+.page-head-line {
+  margin: 0 auto;
+  width: 150rpx;
+  height: 2rpx;
+  background-color: #D8D8D8;
+}
