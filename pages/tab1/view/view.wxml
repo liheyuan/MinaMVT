@@ -1,4 +1,5 @@
 <import src="../../common/template-pagehead/template-pagehead.wxml" />
+<import src="../../common/template-pagefoot/template-pagefoot.wxml" />
 
 <template is="template-pagehead" data="{{title: 'view'}}" />
 
@@ -61,3 +62,5 @@
     </view>
   </view>
 </view>
+
+<template is="template-pagefoot" />
