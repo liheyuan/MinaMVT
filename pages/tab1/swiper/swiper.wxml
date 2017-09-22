@@ -45,6 +45,19 @@
     <slider bindchange="intervalChange" value="{{interval}}" min="500" max="10000" />
   </view>
 
+  <view class="page-section page-section-spacing">
+    <view class="page-section-title">
+      <text>幻灯片切换时长(ms)</text>
+      <text class="info">{{duration}}</text>
+    </view>
+    <slider bindchange="durationChange" value="{{duration}}" min="100" max="2000" />
+    <view class="page-section-title">
+      <text>自动播放间隔时长(ms)</text>
+      <text class="info">{{interval}}</text>
+    </view>
+    <slider bindchange="intervalChange" value="{{interval}}" min="500" max="10000" />
+  </view>
+
 </view>
 
-<template is="template-pagefoot " />
+<template is="template-pagefoot" />

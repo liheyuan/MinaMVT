@@ -20,7 +20,7 @@
 
     <view class="page-section">
     <view class="page-section-title">
-      <text>Vertical Scroll\n纵向(垂直)滚动</text>
+      <text>Horizontal Scroll\n横向(水平)滚动</text>
     </view>
     <view class="page-section-spacing">
       <scroll-view class="scroll-view_H" scroll-x="true" bindscroll="scroll" style="width: 100%">
