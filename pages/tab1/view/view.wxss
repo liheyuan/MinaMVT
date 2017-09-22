@@ -7,6 +7,11 @@
   display:flex;
 }
 
+.flex-wrp-full {
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+
 .flex-item{
   width: 200rpx;
   height: 200rpx;
