@@ -1,0 +1,21 @@
+@import "../../common/template-pagehead/template-pagehead.wxss";
+@import "../../common/template-pagefoot/template-pagefoot.wxss";
+@import "../../common/index.wxss";
+@import "../../common/weui.wxss";
+
+.swiper-item{
+  display: block;
+  height: 150px;
+}
+
+.page-section-title{
+  margin-top: 60rpx;
+  position: relative;
+}
+
+.info{
+  position: absolute;
+  right: 0;
+  color: #353535;
+  font-size: 30rpx;
+}
