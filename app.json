@@ -6,7 +6,8 @@
     "pages/common/template-menucell/template-menucell",
     "pages/common/template-pagehead/template-pagehead",
     "pages/common/template-pagefoot/template-pagefoot",
-    "pages/tab1/view/view"
+    "pages/tab1/view/view",
+    "pages/tab1/scroll-view/scroll-view"
   ],
   "window": {
     "backgroundTextStyle": "light",
