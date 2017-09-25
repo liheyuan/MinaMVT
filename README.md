@@ -16,3 +16,4 @@ The ui and logic are reduced to minimal, just to show Minimum viable technology 
 * 0.2 template
 * 0.3 scroll demo
 * 0.4 swipe demo
+* 0.5 text demo
