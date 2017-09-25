@@ -1,0 +1,22 @@
+@import "../../common/template-pagehead/template-pagehead.wxss";
+@import "../../common/template-pagefoot/template-pagefoot.wxss";
+@import "../../common/index.wxss";
+
+button{
+  margin: 40rpx 0;
+  font-size: 34rpx;
+}
+.text-box{
+  margin-bottom: 70rpx;
+  padding: 40rpx 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 300rpx;
+  background-color: #FFFFFF;
+  text-align: center;
+  font-size: 30rpx;
+  color: #353535;
+  line-height: 2em;
+}

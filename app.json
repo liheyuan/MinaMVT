@@ -8,7 +8,8 @@
     "pages/common/template-pagefoot/template-pagefoot",
     "pages/tab1/view/view",
     "pages/tab1/scroll-view/scroll-view",
-    "pages/tab1/swiper/swiper"
+    "pages/tab1/swiper/swiper",
+    "pages/tab1/text/text"
   ],
   "window": {
     "backgroundTextStyle": "light",

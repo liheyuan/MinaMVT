@@ -1,0 +1,16 @@
+<import src="../../common/template-pagehead/template-pagehead.wxml" />
+<import src="../../common/template-pagefoot/template-pagefoot.wxml" />
+
+<template is="template-pagehead" data="{{title: 'text'}}" />
+
+<view class="page-body">
+  <view class="page-section page-section-spacing">
+    <view class="text-box" scroll-y="true">
+      <text>{{text}}</text>
+    </view>
+    <button disabled="{{!canAdd}}" bindtap="add">add line</button>
+    <button disabled="{{!canRemove}}" bindtap="remove">remove line</button>
+  </view>
+</view>
+
+<template is="template-pagefoot" />
