@@ -10,7 +10,8 @@
     "pages/tab1/scroll-view/scroll-view",
     "pages/tab1/swiper/swiper",
     "pages/tab1/text/text",
-    "pages/tab1/icon/icon"
+    "pages/tab1/icon/icon",
+    "pages/tab1/progress/progress"
   ],
   "window": {
     "backgroundTextStyle": "light",

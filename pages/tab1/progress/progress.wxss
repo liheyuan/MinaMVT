@@ -1,0 +1,15 @@
+@import "../../common/template-pagehead/template-pagehead.wxss";
+@import "../../common/template-pagefoot/template-pagefoot.wxss";
+@import "../../common/index.wxss";
+
+progress{
+  width: 100%;
+}
+.progress-box{
+  display: flex;
+  height: 50rpx;
+  margin-bottom: 60rpx;
+}
+.progress-cancel{
+  margin-left: 40rpx;
+}

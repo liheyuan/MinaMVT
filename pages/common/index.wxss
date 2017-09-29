@@ -47,6 +47,11 @@
   padding-right: 30rpx;
 }
 
+.page-section-gap{
+  box-sizing: border-box;
+  padding: 0 30rpx;
+}
+
 .demo-text-1{
   position: relative;
   align-items: center;
