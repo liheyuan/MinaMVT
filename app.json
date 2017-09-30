@@ -11,7 +11,8 @@
     "pages/tab1/swiper/swiper",
     "pages/tab1/text/text",
     "pages/tab1/icon/icon",
-    "pages/tab1/progress/progress"
+    "pages/tab1/progress/progress",
+    "pages/tab3/button/button"
   ],
   "window": {
     "backgroundTextStyle": "light",
