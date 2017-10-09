@@ -1,8 +1,13 @@
+<import src="../common/template-menucell/template-menucell.wxml" />
+
 <view class="index">
   <view class="index-head">
     <image class="index-logo" src="/image/tabbar_camera_selected.png"></image>
     <view class='index-desc'>这是Tab2，演示基本媒体组件的用法。</view>
   </view>
   <view class="index-body">
+    <block wx:for-items="{{list}}" wx:key="{{item.id}}">
+      <template is="template-menucell" data="{{...item}}" />
+    </block>
   </view>
 </view>

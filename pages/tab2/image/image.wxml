@@ -1,0 +1,24 @@
+<import src="../../common/template-pagehead/template-pagehead.wxml" />
+<import src="../../common/template-pagefoot/template-pagefoot.wxml" />
+
+<template is="template-pagehead" data="{{title: 'image'}}" />
+
+<view class="page-body">
+
+  <view class="page-section page-section-gap">
+    <view class="page-section-title">Local Image</view>
+    <view class="page-section-ctn">
+      <image class="image" src="/image/1.jpg" />
+    </view>
+  </view>
+
+  <view class="page-section page-section-gap">
+    <view class="page-section-title">Internet Image</view>
+    <view class="page-section-ctn">
+      <image class="image" src="https://coder4.com/2.jpg" />
+    </view>
+  </view>
+
+</view>
+
+<template is="template-pagefoot" />
