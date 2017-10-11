@@ -1,0 +1,14 @@
+<import src="../../common/template-pagehead/template-pagehead.wxml" />
+<import src="../../common/template-pagefoot/template-pagefoot.wxml" />
+
+<template is="template-pagehead" data="{{title: 'audio'}}" />
+
+<view class="page-body">
+
+  <view class="page-section page-section-gap" style="text-align: center;">
+    <audio style="text-align: center" src="{{current.src}}" poster="{{current.poster}}" name="{{current.name}}" author="{{current.author}}" action="{{audioAction}}" controls></audio>
+  </view>
+
+</view>
+
+<template is="template-pagefoot" />

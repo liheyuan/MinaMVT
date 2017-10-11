@@ -13,7 +13,8 @@
     "pages/tab1/icon/icon",
     "pages/tab1/progress/progress",
     "pages/tab3/button/button",
-    "pages/tab2/image/image"
+    "pages/tab2/image/image",
+    "pages/tab2/audio/audio"
   ],
   "window": {
     "backgroundTextStyle": "light",

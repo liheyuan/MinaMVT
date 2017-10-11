@@ -1,0 +1,3 @@
+@import "../../common/template-pagehead/template-pagehead.wxss";
+@import "../../common/template-pagefoot/template-pagefoot.wxss";
+@import "../../common/index.wxss";
