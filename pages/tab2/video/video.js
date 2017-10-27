@@ -30,7 +30,7 @@ Page({
   bindInputBlur: function (e) {
     this.inputValue = e.detail.value
   },
-  bindButtonTap: function () {
+  bindChooseVideo: function () {
     var that = this
     wx.chooseVideo({
       sourceType: ['album', 'camera'],

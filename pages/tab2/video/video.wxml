@@ -22,7 +22,7 @@
       <button bindtap="bindSendDanmu" class="page-body-button" type="primary" formType="submit">发送弹幕</button>
     </view>
     <view class="btn-area">
-      <button bindtap="bindButtonTap" class="page-body-button" type="primary" formType="submit">本地视频</button>
+      <button bindtap="bindChooseVideo" class="page-body-button" type="primary" formType="submit">本地视频</button>
     </view>
   </view>
 
