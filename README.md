@@ -22,3 +22,4 @@ The ui and logic are reduced to minimal, just to show Minimum viable technology 
 * 0.8 button demo
 * 0.9 image demo
 * 1.0 audio demo
+* 1.1 video demo

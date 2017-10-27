@@ -14,7 +14,8 @@
     "pages/tab1/progress/progress",
     "pages/tab3/button/button",
     "pages/tab2/image/image",
-    "pages/tab2/audio/audio"
+    "pages/tab2/audio/audio",
+    "pages/tab2/video/video"
   ],
   "window": {
     "backgroundTextStyle": "light",

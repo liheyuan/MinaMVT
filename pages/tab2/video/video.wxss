@@ -1,0 +1,16 @@
+@import "../../common/template-pagehead/template-pagehead.wxss";
+@import "../../common/template-pagefoot/template-pagefoot.wxss";
+@import "../../common/index.wxss";
+@import "../../common/weui.wxss";
+
+.weui-cells{
+  margin-top: 80rpx;
+  text-align: left;
+}
+.weui-label{
+  width: 5em;
+}
+
+.tc{
+  text-align: center;
+}
