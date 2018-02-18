@@ -14,7 +14,7 @@ Page({
         id: 'nav',
         name: '网络与微信',
         open: false,
-        pages: ['request', 'login', 'userInfo']
+        pages: ['request', 'userinfo']
       }
     ]
   },
