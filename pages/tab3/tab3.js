@@ -6,14 +6,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    list: [
-      {
-        id: 'form',
-        name: '表单组件',
-        open: false,
-        pages: ['button', 'checkbox', 'form', 'input', 'label', 'picker', 'radio', 'slider', 'switch', 'textarea']
-      }
-    ]
+    list: []
   },
 
   menuToggle: function (e) {

@@ -1,0 +1,22 @@
+@import "../../common/template-pagehead/template-pagehead.wxss";
+@import "../../common/template-pagefoot/template-pagefoot.wxss";
+@import "../../common/index.wxss";
+
+button{
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+.button-sp-area{
+  margin: 0 auto;
+  width: 60%;
+}
+.mini-btn{
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+}
+.button-sm-area {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

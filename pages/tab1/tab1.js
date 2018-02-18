@@ -18,7 +18,7 @@ Page({
         id: 'content',
         name: '基础内容',
         open: false,
-        pages: ['text', 'icon', 'progress']
+        pages: ['text', 'button', 'icon', 'progress']
       }
     ]
   },
