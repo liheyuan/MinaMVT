@@ -15,7 +15,8 @@
     "pages/tab3/button/button",
     "pages/tab2/image/image",
     "pages/tab2/audio/audio",
-    "pages/tab2/video/video"
+    "pages/tab2/video/video",
+    "pages/tab2/request/request"
   ],
   "window": {
     "backgroundTextStyle": "light",

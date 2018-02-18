@@ -1,0 +1,17 @@
+<import src="../../common/template-pagehead/template-pagehead.wxml" />
+<import src="../../common/template-pagefoot/template-pagefoot.wxml" />
+
+<template is="template-pagehead" data="{{title: 'request'}}" />
+
+<view class="page-body">
+  <view class="page-section page-section-spacing">
+    <view class="text-box" scroll-y="true">
+      <text>{{result}}</text>
+    </view>
+    <button bindtap="request_get">get msg=hello</button>
+    <button  bindtap="request_post_url">post key=val</button>
+    <button  bindtap="request_post_json">post {"data": "my data"}</button>
+  </view>
+</view>
+
+<template is="template-pagefoot" />

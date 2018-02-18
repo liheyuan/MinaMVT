@@ -9,6 +9,12 @@ Page({
         name: '媒体组件',
         open: false,
         pages: ['image', 'audio', 'video']
+      },
+      {
+        id: 'nav',
+        name: '网络与微信',
+        open: false,
+        pages: ['request', 'login', 'userInfo']
       }
     ]
   },
