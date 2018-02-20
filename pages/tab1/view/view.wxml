@@ -31,22 +31,11 @@
 
   <view class="page-section">
     <view class="page-section-title">
-      <text>align-self\n自身在交叉轴上布局</text>
-    </view>
-    <view class="flex-wrp flex-wrp-full" style="flex-direction:column">
-      <view class="flex-item flex-item demo-text-1" style='align-self:flex-start'></view>
-      <view class="flex-item flex-item demo-text-2" style='align-self:center'></view>
-      <view class="flex-item flex-item demo-text-3" style='align-self:flex-end'></view>
-    </view>
-  </view>
-
-  <view class="page-section">
-    <view class="page-section-title">
       <text>justify-content\n子元素在主轴上布局</text>
     </view>
-    <view class="flex-wrp flex-wrp-full" style="flex-direction:column;justify-content:flex-end">
+    <view class="flex-wrp flex-wrp-full" style="flex-direction:row;justify-content:space-between;">
       <view class="flex-item flex-item demo-text-1" style=''></view>
-      <view class="flex-item flex-item demo-text-2" style='align-self:center'></view>
+      <view class="flex-item flex-item demo-text-2" style=''></view>
       <view class="flex-item flex-item demo-text-3" style=''></view>
     </view>
   </view>
@@ -62,25 +51,36 @@
     </view>
   </view>
 
-<view class="page-section">
-  <view class="page-section-title">
-    <text>flex:1\n左侧充满，右侧定宽</text>
+  <view class="page-section">
+    <view class="page-section-title">
+      <text>align-self\n自身在交叉轴上布局</text>
+    </view>
+    <view class="flex-wrp flex-wrp-full" style="flex-direction:column">
+      <view class="flex-item flex-item demo-text-1" style='align-self:flex-start'></view>
+      <view class="flex-item flex-item demo-text-2" style='align-self:center'></view>
+      <view class="flex-item flex-item demo-text-3" style='align-self:flex-end'></view>
+    </view>
   </view>
-  <view class="flex-wrp flex-wrp-full" style="flex-direction:row">
-    <view class="flex-item flex-item demo-text-1" style='flex: 1'></view>
-    <view class="flex-item flex-item demo-text-2" style='width: 200rpx'></view>
-  </view>
-</view>
 
-<view class="page-section">
-  <view class="page-section-title">
-    <text>flex:5, flex: 1\n左侧5，右侧1</text>
+  <view class="page-section">
+    <view class="page-section-title">
+      <text>flex:1\n左侧充满，右侧定宽</text>
+    </view>
+    <view class="flex-wrp flex-wrp-full" style="flex-direction:row">
+      <view class="flex-item flex-item demo-text-1" style='flex: 1'></view>
+      <view class="flex-item flex-item demo-text-2" style='width: 200rpx'></view>
+    </view>
   </view>
-  <view class="flex-wrp flex-wrp-full" style="flex-direction:row">
-    <view class="flex-item flex-item demo-text-1" style='flex: 5'></view>
-    <view class="flex-item flex-item demo-text-2" style='flex: 1'></view>
+
+  <view class="page-section">
+    <view class="page-section-title">
+      <text>flex:5, flex: 1\n左侧5，右侧1</text>
+    </view>
+    <view class="flex-wrp flex-wrp-full" style="flex-direction:row">
+      <view class="flex-item flex-item demo-text-1" style='flex: 5'></view>
+      <view class="flex-item flex-item demo-text-2" style='flex: 1'></view>
+    </view>
   </view>
-</view>
 
 </view>
 

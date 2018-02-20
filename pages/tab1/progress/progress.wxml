@@ -21,7 +21,7 @@
     </view>
 
     <view class="progress-box">
-      <progress percent="60" active stroke-width="3" />
+      <progress percent="60" active stroke-width="12" />
     </view>
 
     <view class="progress-box">
